@@ -19,8 +19,8 @@ This project simplifies the process of creating, managing, and booking calls wit
 * 🎨 **Streamlined Styling**: Utilizes Tailwind CSS and PostCSS for utility-first, consistent styling.
 * 🔐 **Type Safety**: Uses TypeScript to maintain strict type checks and reliable code.
 * ☁️ **Backend Integration**: Firebase handles data storage, analytics, and real-time updates.
-* 📅 **Conflict-Free Scheduling**: Detects overlapping bookings and prevents them in real time.
-* 🧩 **Modular Architecture**: Built with reusable React components for maintainability.
+* 🗕️ **Conflict-Free Scheduling**: Detects overlapping bookings and prevents them in real time.
+* 🧹 **Modular Architecture**: Built with reusable React components for maintainability.
 
 ---
 
@@ -44,4 +44,35 @@ Build and run the project locally by following these steps:
 ```bash
 git clone https://github.com/krishjaiswal09/Call-Booking-System-TS
 ```
+
+2. **Navigate to the project directory**
+
+```bash
+cd Call-Booking-System-TS
+```
+
+3. **Install the dependencies**
+
+```bash
+npm install
+```
+
+4. **Start the development server**
+
+```bash
+npm run dev
+```
+
+Now open [http://localhost:5173](http://localhost:5173) to view the application in your browser.
+
+---
+
+### 🧪 Usage
+
+Use the app to:
+
+* Book client calls with selected dates and time slots
+* View conflict-free availability
+* Seamlessly manage the booking status in real-time
+
 
